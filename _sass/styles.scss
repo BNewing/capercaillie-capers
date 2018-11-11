@@ -1,7 +1,5 @@
-// Add your styles here
-
 html {
-	height: 100%;
+	min-height: 100%;
 	width: 100%;
 	background: #F5F8DE;
 	font-family: 'Patua One', cursive;
@@ -10,7 +8,7 @@ html {
 }
 
 body {
-	height: 100%;
+	min-height: 100%;
 	width: 100%;
 	margin: 0;
 	padding: 0;	
@@ -21,10 +19,11 @@ body {
 }
 
 main {	
-	width: 40rem;
+	width: 60rem;
 	max-width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	flex: 1 0 auto;
 	line-height: 1.5;
 }
+
