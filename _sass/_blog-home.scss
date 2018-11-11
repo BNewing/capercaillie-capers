@@ -5,6 +5,9 @@
 		text-align: left;
 		margin-bottom: 2rem;
 	}
+	&__item-title {
+		text-align: center;
+	}
 	&__link {
 	color: $dark-purple;
 	border: 0.25rem solid transparent;
