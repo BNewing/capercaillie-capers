@@ -26,7 +26,8 @@ github_username:  jekyll
 sass:
   style: compressed
   sass_dir: _sass
-
+collections: 
+  grouse:
 # Build settings
 markdown: kramdown
 theme: minima

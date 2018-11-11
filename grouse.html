@@ -1,0 +1,13 @@
+---
+layout: default
+title: Grouse Types
+---
+
+<h1>Types of Grouse</h1>
+
+	{% for grouse in site.grouse %}
+    	<li>
+      		<h2>{{ grouse.name }}</h2>
+      		<p>{{ grouse.content | markdownify }}</p>
+   		</li>
+  	{% endfor %}
