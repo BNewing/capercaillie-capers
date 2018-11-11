@@ -4,10 +4,16 @@ title: Grouse Types
 ---
 
 <h1>Types of Grouse</h1>
+<p>Capercaillies aren't the only type of grouse! Here are the others:</p>
 
-	{% for grouse in site.grouse %}
-    	<li>
-      		<h2>{{ grouse.name }}</h2>
-      		<p>{{ grouse.content | markdownify }}</p>
-   		</li>
-  	{% endfor %}
+<ul class="grouse-home__list">
+{% for grouse in site.grouse %}
+	<li class="grouse-home__list-item">
+		{{ grouse.image }}
+  		<h2 class="grouse-home__list-item-title">{{ grouse.name }}</h2>
+  		<p>{{ grouse.content | markdownify }}</p>
+	</li>
+	{% endfor %}
+</ul>
+
+<p>Read more about them on the <a href="https://www.rspb.org.uk/birds-and-wildlife/wildlife-guides/bird-a-z/grouse-family/">Grouse page on the RSPB website</a>.</p>
