@@ -1,0 +1,24 @@
+{
+  "name": "capercaillie-capers",
+  "version": "1.0.0",
+  "description": "I wanted to have a play around with Jekyll. I've been working with WordPress for a while and got all interested in JAMstack sites as an alternative. I figured I needed some content though, and I generally find the sillier the better, so I've made this site about capercaillies, and (hopefully) my future adventures in finding one in the wild.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "sass-lint": "^1.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-lint": "sass-lint -c ./sass-lint.yml '**/*.scss' -v -q"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BNewing/capercaillie-capers.git"
+  },
+  "author": "BNewing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BNewing/capercaillie-capers/issues"
+  },
+  "homepage": "https://github.com/BNewing/capercaillie-capers#readme"
+}

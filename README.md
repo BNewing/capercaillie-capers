@@ -14,7 +14,8 @@ I wanted to have a play around with Jekyll. I've been working with WordPress for
 - Refresh the browser when you want to see changes!
 
 # 3. How to suggest a change
-- Create an issue on the issues tab
+- Create an issue on the issues tab :)
 
 # 4. What the project looks like
+Homepage:
 ![screenshot of the home page](./assets/images/screenshot.png)
