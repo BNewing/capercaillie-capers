@@ -5,7 +5,7 @@ rvm:
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
 script:  
-- bundle exec rake test
+- bundle exec jekyll build
 
 env:
   global:
