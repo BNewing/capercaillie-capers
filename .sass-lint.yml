@@ -13,9 +13,9 @@ options:
   max-warnings: 50
 # File Options
 files:
-  include: './_sass/*.s+(a|c)ss'
+  include: './_sass/*.scss'
   ignore:
-    - '/vendor/*'
+    - 'vendor/*'
 # Rule Configuration
 rules:
   final-newline: 
