@@ -1,12 +1,8 @@
-.grouse-home__list {
-	
-}
-
 .grouse-home__list-item {
 	list-style: none;
 	text-align: left;
-	margin: 1rem;	
-	border: 1px solid $dark-purple;
+	margin: 1rem;
+	border: 0.0125rem solid $dark-purple;
 	border-radius: 0.5rem;
 	display: inline-block;
 	padding: 1rem;
@@ -23,5 +19,5 @@
 .grouse-home__image {
 	height: 6rem;
 	display: block;
-	margin: 0 auto 1rem auto;
+	margin: 0rem auto 1rem auto;
 }
