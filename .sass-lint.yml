@@ -13,7 +13,7 @@ options:
   max-warnings: 50
 # File Options
 files:
-  include: 'sass/**/*.s+(a|c)ss'
+  include: './_sass/*.s+(a|c)ss'
   ignore:
     - 'sass/vendor/**/*.*'
 # Rule Configuration
