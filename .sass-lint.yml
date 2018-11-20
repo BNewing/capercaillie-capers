@@ -15,7 +15,7 @@ options:
 files:
   include: './_sass/*.s+(a|c)ss'
   ignore:
-    - 'sass/vendor/**/*.*'
+    - '/vendor/**/*.*'
 # Rule Configuration
 rules:
   final-newline: 
