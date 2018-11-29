@@ -23,13 +23,23 @@ body {
 }
 
 main {
-	width: 60rem;
+	width: 100%;
 	max-width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	flex: 1 0 auto;
 	line-height: 1.5;
 	padding: 1rem;
+	@media (min-width: $tablet) {
+		width: 30rem;
+	}
+	@media (min-width: $laptop) {
+		width: 50rem;
+	}
+}
+
+img {
+	width: 20rem;
 }
 
 .video-wrapper {
