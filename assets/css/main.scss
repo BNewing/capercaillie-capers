@@ -1,9 +1,14 @@
 ---
 ---
-@import "global-variables";
-@import "styles";
-@import "nav";
-@import "footer";
-@import "typography";
-@import "blog-home";
-@import "grouse-home";
+// BASE
+@import "base/global-variables";
+@import "base/styles";
+@import "base/typography";
+
+//COMPONENTS
+@import "components/nav";
+@import "components/footer";
+
+//PAGES
+@import "pages/blog-home";
+@import "pages/grouse-home";
